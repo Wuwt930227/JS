@@ -21,6 +21,7 @@
             z+=1; //z=z+1
             //z-=4; //z=z-4
             console.log(z); //z會印出什麼？
+
             //比較運算 >,<,>=,<=,==
             z=3>4;
             console.log(z);
@@ -34,11 +35,36 @@
             console.log(z);
             z="Java"=="Java";
             console.log(z);
+
             //單元運算 !(反轉),++,--
             z=!z;
             console.log(z);
             z=!false;
             console.log(z);
+            z=3;
+            z++;
+            console.log(z);
+
+            //邏輯運算(針對布林值) &&(且),||(或)
+            let n=true&&true;
+            console.log(n);
+            let m=true&&false;
+            console.log(m);
+            let a=true||true;
+            console.log(a);
+            let b=true||false;
+            console.log(b);
+            /*應用的三大要素:
+            1.使用者輸入
+            2.運算
+            3.輸出 */
+            //請使用者輸入兩個數字，得到乘法結果
+            //要求使用者輸入:prompt(字串,字串) 【回傳】使用者的輸入
+            let n1=prompt("請輸入一個數字","預設值"); //接受回傳用等號
+            //預設值可寫可不寫
+            let n2=prompt("請輸入一個數字","");
+            let result=n1*n2;
+            console.log(result);
         </script>
     </body>
 </html>
